@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Machine Learning Ph.D. Candidate
 
 profile:
   align: right
@@ -18,8 +18,5 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Emily Herron is a Data Science and Engineering Ph.D. candidate in The Bredesen Center at the University of Tennessee, Knoxville, under the guidance of Dr. Steven R. Young. She is also a graduate research assistant in the Learning Systems Group at Oak Ridge National Laboratory. Her dissertation research involves developing scalable and stable generalized differentiable neural architecture search methods. Her previous research has also involved evolutionary algorithms, neural network ensembles, text mining, and NLP models. She is a member of ACM and IEEE and has served as a reviewer for the International Conference on Machine Learning (ICML) and as a peer mentor in the Bredesen Center. Emily also earned a B.S. in Computational Science from Mercer University in 2014.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
