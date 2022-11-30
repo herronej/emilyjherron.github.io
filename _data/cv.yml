@@ -1,87 +1,135 @@
-- title: Education
-  type: time_table
+- title: Objective
+  type: list
+  contents: Research and development of novel machine learning techniques for novel applications.
+
+- title: Fields of Interest
+  type: list
+  contents: Data Analytics, Deep Learning, Computer Vision, Knowledge Discovery, Text Analysis,
+High Performance Computing, GPU Programming.
+
+- title: Selected Publications <a size="8" color="#0000EE" href="/content/citations.bib">[Bibtex]</a>
+  type: list
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      - **E. J. Herron,**, S. R. Young, and D. C. Rose, "ICDARTS: Improving the Stability of Cyclic DARTS," in 2022 21th IEEE International Conference on Machine Learning and Applications (ICMLA), IEEE, 2022.
+
+      - * J. Duncan, F. Fallas, C. Gropp, **E. Herron,** M. Mahbub, P. Olaya, E. Ponce, T. Samuel, D. Schultz, S. Srinivasan, M. Tang, V. Zenkov, Q. Zhou, and E. Begoli, "The sensitivity of word embeddings-based author detection models to semantic-preserving adversarial perturbations," 2021.
+
+      - **E. Herron,**, S. Young, and T. Potok, "Ensembles of networks produced from neural architecture search," in Jagode, H., Anzt, H., Juckeland, G., and Ltaief, H., editors, High  Performance  Computing, pp. 223–-234, Cham. Springer International Publishing, 2020.
+
+      - **E. Herron,** T. Skluzacek, I. Foster, and K. Chard, "Applying image feature extraction to clutteredscientific repositories," 2017.
+
+- title: Education
+  type: list
+  contents:
+      -title: University of Tennessee, Knoxville, The Bredesen Center 
+       items: 
+          - Major: Data Science and Engineering, PhD
+          - Anticipated Graduation Date: May, 2023
+          - GPA: 3.95
+
+      -title: Mercer University
+       items:
+          - Major: Electrical Engineering, BS   
+          - Graduation Date: May, 2018  
+          - GPA: 3.94
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: ORNL - Computational Data Analytics, Oak Ridge, TN
+      year: 2018 - 2022
       description:
+        - Proposed and implemented improvements to the CDARTS neural architecture search algorithm.
+        - Developed method for creating diverse ensembles of networks produced from neural architecture search.
+        - Experimented with improvements to MENNDL, an evolutionary algorithm-based framework for deep learning hyperparameter optimization.
+        - Researched and implemented selection algorithms; compared results of runs using different selection methods and scales on Titan and Summit supercomputers
+
+
         - Description 1.
         - Description 2.
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+    - title: 
+      institution: ORNL - Computational Data Analytics, Oak Ridge, TN
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Carried out text mining project dealing with classification of NIEHS research publications
+        - Trained Hierarchical Attention Networks and other models including Naive Bayes and Random Forests to classify publications based on satisfaction of various criteria
+        - Leveraged frameworks including Hierarchical Attention Networks and Tf-Idf Based Weighting, and spatial distances between word groupings and criteria descriptions to quantify the relevance of words or word groups to criteria queries and category predictions
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Experience
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: ORNL - Computational Data Analytics, Oak Ridge, TN (May 2018 - Present)  
+        - title: Graduate Research Assistant
+        contents: 
+          - Proposed and implemented improvements to the CDARTS neural architecture search algorithm.
+          - Developed method for creating diverse ensembles of networks produced from neural architecture search.
+          - Experimented with improvements to MENNDL, an evolutionary algorithm-based framework for deep learning hyperparameter optimization.
+          - Researched and implemented selection algorithms; compared results of runs using different selection methods and scales on Titan and Summit supercomputers
 
-- title: Other Interests
+        - title: Intern
+        contents:
+          - Carried out text mining project dealing with classification of NIEHS research publications
+          - Trained Hierarchical Attention Networks and other models including Naive Bayes and Random Forests to classify publications based on satisfaction of various criteria
+          - Leveraged frameworks including Hierarchical Attention Networks and Tf-Idf Based Weighting, and spatial distances between word groupings and criteria descriptions to quantify the relevance of words or word groups to criteria queries and category predictions
+
+    - title: Big Data X REU - University of Chicago & Illinois Institute of Technology, Chicago, IL (May 2017 - July 2017) 
+        - title: Undergraduate Researcher
+        contents:
+          - Contributed to development of automated pipeline for extracting metadata and predicting contextual relationships between files in large scientific repositories
+          - Developed collection of modules for extracting metadata from images; functionality included feature-based clustering, text extraction using optical character recognition, and image classification through use of support vector machine models
+          - Module tested on over 3,500 images; results published in poster, placed 3rd in ACM’s undergraduate Student Poster Competition at Super Computing (SC) 2017 Conference
+
+    -title: Mercer Engineering Research Center, Warner Robins, GA (May 2016 - May 2018)
+       -title: Intern
+       contents:
+         - Applied variety of machine learning methods to classification of aircraft flight regime data (Pandas, Scikit-Learn, Tensorflow, Keras, Weka)
+         - Presented PowerPoint of classification results and findings to group of engineers on weekly basis
+         - Researched and developed augmented reality-based remote collaboration and video streaming application for Microsoft Hololens using C#, Unity, Windows 10 UWP, ASP.NET with team
+         - Developed methods for utlizing HPC for training deep networks for large science datasets
+         - Developed approaches for applying deep learning to datasets with very few labeled examples
+
+
+- title: Honors
+  type: nested_list
+  contents:
+    - title: The Bredesen Center
+      items: 
+          - Data Science & Engineering Fellowship (2018-2022)
+    - title: Super Computing Conference (SC17)
+      items: 
+          - ACM Student Poster Competition Undergraduate Semifinalist (Nov. 2017)
+    - title: Mercer University
+      items:
+          - Summa Cum Laude (May 2018)
+          - Mercer University Outstanding Student in Computational Science (2016-2018)
+          - President’s and Dean’s Lists (2014-2018)
+          - Academic Scholarship (April 2014)
+
+
+- title: Academic & Professional Service
+- 2022 International Conference on Machine Learning (ICML 2022), Baltimore, Maryland, USA
+    - Reviewer - Top 10% (2022)
+- Bredesen Center Peer Mentoring Program, Knoxville, TN, USA
+    - Peer Mentor (2022)
+- Introduce Your Daughter to AI, Oak Ridge National Laboratory
+    - Volunteer (2018-2019)
+- Majors in Minutes, Mercer University, Macon, GA, USA
+    - Computational Science Major Representative (2016-2018)
+- 3D Modeling Inventors Workshop, Museum of Aviation, Warner Robins, GA, USA
+    - Volunteer (2017)
+
+- title: Professional Organizations
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+      - ACM - Member
+      - IEEE – Member
+
+
+
