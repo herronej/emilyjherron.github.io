@@ -1,41 +1,40 @@
 ---
 layout: cv
-permalink: /cv/
 title: cv
 nav: true
-nav_order: 4
-cv_pdf: example_pdf.pdf
+nav_order: 2
+cv_pdf: CV.pdf
 ---
 
-# Objective
+## Objective
 Research and development of novel machine learning techniques for novel applications.
 
-# Fields of Interest
+## Fields of Interest
 Data Analytics, Deep Learning, Computer Vision, Knowledge Discovery, Text Analysis,
 High Performance Computing, GPU Programming.
 
-# Selected Publications <a size="8" color="#0000EE" href="/content/citations.bib">[Bibtex]</a>
-* **E. J. Herron,**, S. R. Young, and D. C. Rose, "ICDARTS: Improving the Stability of Cyclic DARTS," in 2022 21th IEEE International Conference on Machine Learning and Applications (ICMLA), IEEE, 2022.
+## Selected Publications <a size="8" color="#0000EE" href="/content/citations.bib">[Bibtex]</a>
+* **E. J. Herron,** S. R. Young, and D. C. Rose, "ICDARTS: Improving the Stability of Cyclic DARTS," in 2022 21th IEEE International Conference on Machine Learning and Applications (ICMLA), IEEE, 2022.
 
 * J. Duncan, F. Fallas, C. Gropp, **E. Herron,** M. Mahbub, P. Olaya, E. Ponce, T. Samuel, D. Schultz, S. Srinivasan, M. Tang, V. Zenkov, Q. Zhou, and E. Begoli, "The sensitivity of word embeddings-based author detection models to semantic-preserving adversarial perturbations," 2021.
 
-* **E. Herron,**, S. Young, and T. Potok, "Ensembles of networks produced from neural architecture search," in Jagode, H., Anzt, H., Juckeland, G., and Ltaief, H., editors, High  Performance  Computing, pp. 223–-234, Cham. Springer International Publishing, 2020.
+* **E. Herron,** S. Young, and T. Potok, "Ensembles of networks produced from neural architecture search," in Jagode, H., Anzt, H., Juckeland, G., and Ltaief, H., editors, High  Performance  Computing, pp. 223–-234, Cham. Springer International Publishing, 2020.
 
 * **E. Herron,** T. Skluzacek, I. Foster, and K. Chard, "Applying image feature extraction to clutteredscientific repositories," 2017.
 
-# Education
+## Education
 
-## University of Tennessee, Knoxville, The Bredesen Center
-Major: Data Science and Engineering, PhD   
-Anticipated Graduation Date: May, 2023  
-GPA: 3.95
+### University of Tennessee, Knoxville, The Bredesen Center
+* Major: Data Science and Engineering, PhD   
+* Anticipated Graduation Date: May, 2023  
+* GPA: 3.95
 
-## Mercer University
-Major: Electrical Engineering, BS   
-Graduation Date: May, 2018  
-GPA: 3.94
+### Mercer University
+* Major: Electrical Engineering, BS   
+* Graduation Date: May, 2018  
+* GPA: 3.94
 
-# Experience
+## Experience
 
 ### ORNL - Computational Data Analytics, Oak Ridge, TN (May 2018 - Present)  
 
@@ -64,13 +63,11 @@ GPA: 3.94
 - Applied variety of machine learning methods to classification of aircraft flight regime data (Pandas, Scikit-Learn, Tensorflow, Keras, Weka)
 - Presented PowerPoint of classification results and findings to group of engineers on weekly basis
 - Researched and developed augmented reality-based remote collaboration and video streaming application for Microsoft Hololens using C#, Unity, Windows 10 UWP, ASP.NET with team
-
-#### Research Scientist
-- Developing methods for utlizing HPC for training deep networks for large science datasets
-- Developing approaches for applying deep learning to datasets with very few labeled examples
+- Developed methods for utlizing HPC for training deep networks for large science datasets
+- Developed approaches for applying deep learning to datasets with very few labeled examples
 
 
-# Honors
+## Honors
 
 - The Bredesen Center 
     - Data Science & Engineering Fellowship (2018-2022)
@@ -82,8 +79,18 @@ GPA: 3.94
     - President’s and Dean’s Lists (2014-2018)
     - Academic Scholarship (April 2014)
 
+## Invited Presentations
 
-# Academic & Professional Service
+- Herron, E., Young, S.R., Rose, D. ICDARTS: Improving the Stability of Cyclic DARTS. 2022 21st IEEE
+International Conference on Machine Learning and Applications, Nassau, The Bahamas.
+- Herron, E., Young, S.R., Potok, T.E. Ensembles of Neural Networks Produced from Neural Architecture
+Search, Women in High Performance Computing Workshop, SuperComputing 2020, Virtual.
+- Herron, E., Young, S.R., Potok, T.E. Ensembles of Neural Networks Produced from Neural Architecture
+Search, The International Conference on High Performance Computing 2020, Virtual.
+- Herron, E., Skluzacek, T., Foster I., Chard, K. Applying Image Feature Extraction to Cluttered Scientific
+Repositories. Student Research Competition Poster Session, SuperComputing 2017, Denver, CO.
+
+## Academic & Professional Service
 - 2022 International Conference on Machine Learning (ICML 2022), Baltimore, Maryland, USA
     - Reviewer - Top 10% (2022)
 - Bredesen Center Peer Mentoring Program, Knoxville, TN, USA
@@ -95,7 +102,7 @@ GPA: 3.94
 - 3D Modeling Inventors Workshop, Museum of Aviation, Warner Robins, GA, USA
     - Volunteer (2017)
 
-# Professional Organizations
+## Professional Organizations
 - ACM - Member
 - IEEE – Member
 
